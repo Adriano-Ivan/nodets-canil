@@ -6,7 +6,7 @@
   "engines": {
     "node": "14.x"
   },
-  "scripts": {,
+  "scripts": {
    
     "start": "node dist/server.js",
     "postInstall": "tsc && copyfiles -u 1 src/**/*.mustache dist/",
